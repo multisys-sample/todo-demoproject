@@ -4,7 +4,7 @@ export default function useUpdateCounter(update) {
   const [updateCount, setUpdateCount] = useState(0);
 
   useEffect(() => {
-    setUpdateCount(updateCount + 1);
+    setUpdateCount((updateCount) => updateCount + 1);
   }, [update]);
 
   return [updateCount];

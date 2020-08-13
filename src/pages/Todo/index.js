@@ -20,7 +20,6 @@ import useUpdateCounter from '../../utils/useUpdateCounter';
 const useStyles = makeStyles((theme) => ({
   wrapper: {
     width: 500,
-    width: 500,
     margin: "50px auto",
     padding: theme.spacing(4),
   },
